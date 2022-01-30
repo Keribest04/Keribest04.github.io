@@ -14,33 +14,39 @@
     </head>
 
     <body>
-        <header>
-        <nav>
-            <ul>
-                <li><a href="#" title="Menu">Menu</a></li>
-                <li><a href="#" title="Reservations">Reservations</a></li>
-                <li><a href="#" title="About Us">About Us</a></li>  
-            </ul>   
-        </nav>
-        
-        <header>
-            <h1>TOWN Chinese Fine Dining</h1> <!--This is a heading that showcases the name of the restaurant-->
-            <h2>Mission Statement</h2> <!--This is a heading-->
+        <header>        
+            <img src="images/logo.png" class = "imglogo"> <!--This is a heading that showcases the name of the restaurant-->
+            <p>
+                Fine Dining Chinese Restaurant
+            </p>
         </header>
 
-        <article>
-            <section class="main-content">
+        <!-- Gid container is the "holder" for the three cells that make up the two side pictures and the middle slideshow -->
+        <div class = "grid-container">
 
-                <!-- This is the mission statement -->
+            <!-- cell 1  (left side picture)-->
+            <div class = "cell1">
+                <img src="images/bamboo.jpg" class = "img1">
+            </div>
+
+            <!-- cell 2 (middle slideshow)-->
+            <div class="slideshow">
+                <nav>
+                    <ul>
+                        <li><a href="https:\\www.google.com" title="Menu">Menu</a></li>
+                        <li><a href="https:\\www.youtube.com" title="Reservations">Reservations</a></li>
+                        <li><a href="https:\\www.instagram.com" title="About Us">About Us</a></li>  
+                    </ul>   
+                </nav>
+
+                <h2>Mission Statement</h2> <!--This is a heading-->
                 <p>
                     To bring quality, style and the wish for good fortune
                     to all of our guests. We provide a high-end experience
                     through Chinese cuisine. 
                 </p>
-                <input type="image" src="images/bamboo.jpg" alt="submit" style="float:right" width="200" height="400">
-                <input type="image" src="images/bamboo.jpg" alt="submit" style="float:left" width="200" height="400">
-                <h2>Vision</h2> <!--This is a heading-->
 
+                <h2>Vision</h2> <!--This is a heading-->
                 <!-- This is vision of the restaurant -->
                 <p>
                     TOWN combines a variety of chinese cuisine 
@@ -60,13 +66,18 @@
                     We would like them to come back for both 
                     personal dining and events. 
                 </p>
+            </div>
 
-            </section>
-        </article>
+            <!-- cell 3 (right pic)-->
+            <div class = "cell3">
+                <img src="images/bamboo.jpg" class = "img1">
+            </div>
 
-    <footer>
-        copyright information or links can be placed here
-    </footer>
+        </div>
+
+        <footer>
+            copyright information or links can be placed here
+        </footer>
     
     </body>
 </html>
