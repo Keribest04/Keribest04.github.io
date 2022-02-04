@@ -43,31 +43,76 @@ p {
 
 /* cell 1 (left photo) */
 .cell1{
-    padding-right: 10px;
-}
-
-/* img 1 that exists in cell 1 */
-.img1{
-    
-    max-width: 200px;
+    padding-right: 2px;
+    background-image: url("../images/bamboo.jpg");
+    background-size: cover;
+    width: 150px;
 }
 
 /* cell 2 (slideshow) */
-.slideshow{
+.cell2{
     /* can change my middle element here */
 }
 
 /* cell 3 (right photo) */
 .cell3{
-    padding-left: 10px;
+    padding-left: 2px;
+    background-image: url("../images/bamboo.jpg");
+    background-size: cover;
+    width: 150px;
 }
 
-/* img 1 that exists in cell 3 */
-.img2{
-    max-width: 200px;
+#slideshow{
+    overflow: hidden;
+    height: 510px;
+    width: 615px;
+    margin: auto;
 }
 
+.slide {
+    float: left;
+    height: 510px;
+    width: 615px;
+}
 
-
-
+.slide-wrapper {
+    width: calc(615px * 4);
+    animation: slide 10s ease infinite;
+}
+.slide:nth-child(1) {
+    background-image: url("../images/image4.jpg");
+    background-size: cover;
+}
+   
+.slide:nth-child(2) {
+    background-image: url("../images/image3.jpg");
+    background-size: cover;
+}
+   
+.slide:nth-child(3) {
+    background-image: url("../images/image2.jpg");
+    background-size: cover;
+}
+   
+.slide:nth-child(4) {
+    background-image: url("../images/image1.jpg");
+    background-size: cover;
+}
+@keyframes slide { 
+    20% {
+        margin-left: 0px;
+    }
+        
+    40% {
+        margin-left: calc(-615px * 1);
+    }
+        
+    60% {
+        margin-left: calc(-615px * 2);
+    }
+        
+    80% {
+        margin-left: calc(-615px * 3);
+    }
+}
 
