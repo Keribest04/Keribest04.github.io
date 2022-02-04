@@ -61,6 +61,7 @@ p {
     background-size: cover;
     width: 150px;
 }
+/*I followed a guide here: https://www.geeksforgeeks.org/programming-a-slideshow-with-html-and-css*/
 
 #slideshow{
     overflow: hidden;
