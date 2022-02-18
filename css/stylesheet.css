@@ -32,6 +32,7 @@ p {
     padding-left: 225px;
 }
 
+
 .imglogo{ 
     max-width: 400px;
     margin: auto;
@@ -142,3 +143,21 @@ nav ul li a:hover{
     }
 }
 
+
+/* menu page css */
+
+/* .menu{
+
+} */
+
+.imgmenu{
+    max-width: 100%;
+}
+
+/*.aboutus{
+
+} */
+.imgabout{
+  max-width: 75%;
+  padding-left: 10%;
+}
