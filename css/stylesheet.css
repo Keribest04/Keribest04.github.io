@@ -58,7 +58,7 @@ p {
     /* can change my middle element here */
 }
 
-.navigation{
+.navigation, .social-containter{
     display: grid;
     grid-template-columns: auto auto auto auto;
     text-align: center;
@@ -161,3 +161,59 @@ nav ul li a:hover{
   max-width: 75%;
   padding-left: 10%;
 }
+.h2{
+    text-align: center;
+}
+
+.social-containter{
+        display: grid;
+        padding: 100px;
+        font-size: 30px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        text-align: center;
+       
+    
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background:rgb(240, 78, 35) ;
+        color: white;
+        display:inline-block;
+        vertical-align:top;
+        margin-right: 5px;
+        padding-left: 1%;
+        
+      }
+      
+        /* instagram */
+        .fa-instagram {
+            background: ;
+            color: rgb(240, 78, 35);
+            display:inline-block;
+            vertical-align:top;
+            margin-right: 5px;
+            padding-left: 1%;
+        }
+
+
+      /* Twitter */
+      .fa-twitter {
+        background: rgb(240, 78, 35);
+        color: white;
+        display:inline-block;
+        vertical-align:top;
+        margin-right: 5px;
+        padding-left: 1%;
+      }
+
+    
