@@ -186,8 +186,8 @@ nav ul li a:hover{
       
       /* Facebook */
       .fa-facebook {
-        background:rgb(240, 78, 35) ;
-        color: white;
+        background:white ;
+        color: rgb(240, 78, 35) ;
         display:inline-block;
         vertical-align:top;
         margin-right: 5px;
@@ -197,7 +197,7 @@ nav ul li a:hover{
       
         /* instagram */
         .fa-instagram {
-            background: ;
+            background:white;
             color: rgb(240, 78, 35);
             display:inline-block;
             vertical-align:top;
@@ -208,8 +208,8 @@ nav ul li a:hover{
 
       /* Twitter */
       .fa-twitter {
-        background: rgb(240, 78, 35);
-        color: white;
+        background: white;
+        color: rgb(240, 78, 35);
         display:inline-block;
         vertical-align:top;
         margin-right: 5px;
