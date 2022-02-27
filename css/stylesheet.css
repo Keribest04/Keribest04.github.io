@@ -207,13 +207,15 @@ nav ul li a:hover{
 
 
       /* Twitter */
-      .fa-twitter {
-        background: white;
-        color: rgb(240, 78, 35);
-        display:inline-block;
-        vertical-align:top;
-        margin-right: 5px;
-        padding-left: 1%;
-      }
+        .fa-twitter {
+            background: white;
+            color: rgb(240, 78, 35);
+            display:inline-block;
+            vertical-align:top;
+            margin-right: 5px;
+            padding-left: 1%;
+        }
 
-    
+.imgtable{
+        max-width: 100%;
+    }
